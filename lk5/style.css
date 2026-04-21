@@ -189,7 +189,7 @@ button:hover {
 footer {
   text-align: center;
   padding: 20px 15px;
-  background: var(--text-heading);
+  background: var(--primary-color);
   color: var(--white);
   margin-top: 40px;
 }
