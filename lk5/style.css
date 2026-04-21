@@ -15,10 +15,10 @@
 
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   background: var(--bg-light);
   color: var(--text-main);
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 
