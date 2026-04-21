@@ -117,8 +117,7 @@ ul {
   margin-left: 20px;
 }
 
-.skill-container,
-.project-container {
+.skill-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
@@ -234,15 +233,13 @@ footer {
     flex-direction: column;
   }
 
-  .skill-container,
-  .project-container {
-    grid-template-columns: 1fr 1fr;
+  .skill-container {
+    grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 480px) {
-  .skill-container,
-  .project-container {
+  .skill-container {
     grid-template-columns: 1fr;
   }
 
