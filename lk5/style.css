@@ -72,14 +72,38 @@ body {
 
 .hero {
   text-align: center;
-  padding: 20px;
+  padding: 40px 20px;
 }
 
 .hero img {
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
+  border: 4px solid var(--white);
+  outline: 4px solid var(--primary-color);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  animation: bounce 3s ease-in-out infinite;
+  transition: transform 0.3s ease;
+}
+
+.hero p {
+  margin-top: 25px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--primary-color), #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
 }
 
 main {
